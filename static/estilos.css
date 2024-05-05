@@ -1,0 +1,62 @@
+.button{
+  border: 2px;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Times New Roman;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: blue;} /* Ejercicio 1 */
+.button2 {background-color: blue;} /* Ejercicio 2 */
+.button3 {
+    background-color: blue;
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: 0; /* Enviar */
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1{
+font-family: Arial;
+}
+
+label{
+font-family: Arial;
+}
+
+p{
+font-family: Arial;
+}
+
+.formulario{
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 450px;
+  width: 20%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #000000;
+  border-radius: 10px;
+}
+.form_nombres{
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 300px;
+  width: 15%;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #000000;
+  border-radius: 10px;
+}
